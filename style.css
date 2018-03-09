@@ -24,3 +24,16 @@ h2 {
     margin: 60px auto;
     width: 100%;
 }
+.col-md-8 {
+  position: absolute;
+  top: 67.5%;
+  left: 34.40%;
+  color: white;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  display: block;
+  margin-top: 15%;
+}

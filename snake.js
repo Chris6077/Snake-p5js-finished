@@ -76,7 +76,7 @@
     }
 
     this.reset = function () { //sets snake to start position and manages scores
-        if (this.highscore < this.total) {  //setting cached highscore if broken
+        if (this.total != undefined && this.highscore < this.total) {  //setting cached highscore if broken
             this.highscore = this.total;
             localStorage['highscore'] = "" + this.highscore;
         }
